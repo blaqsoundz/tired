@@ -1,0 +1,203 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+/* Form container */
+.form {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #c7b6c5; /* Optional, for contrast */
+}
+
+/* Form header */
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: darkorchid;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+/* Input fields */
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+/* Focus state for inputs */
+.form input:focus {
+    outline: none;
+}
+
+/* Placeholder styling */
+::placeholder {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Button styling */
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #9932cc;
+    border: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Hover effect for button */
+.btnn:hover {
+    background: #ff9200;
+    color: #9932cc;
+}
+
+/* Button link styling */
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Link below the form */
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Styling for the link in the form */
+.form .link a {
+    text-decoration: none;
+    color: #9932cc;
+}
+
+/* Padding for list items */
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Secondary button */
+.btnnn {
+    width: 240px;
+    height: 40px;
+    background: gray;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+/* Link inside secondary button */
+.btnnn a {
+    text-decoration: dashed;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Portrait Orientation for Small Screens (mobile devices) */
+@media (max-width: 768px) and (orientation: portrait) {
+    .form {
+        width: 100%;
+        padding: 15px;
+        top: 50px;
+    }
+
+    .form h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .form input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .btnn {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .btnnn {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .form .link a {
+        font-size: 14px;
+    }
+}
+
+/* Landscape Orientation for Small Screens (mobile devices) */
+@media (max-width: 768px) and (orientation: landscape) {
+    .form {
+        width: 80%;
+        padding: 15px;
+        top: 50px;
+    }
+
+    .form h2 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .form input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .btnn {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .btnnn {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .form .link a {
+        font-size: 14px;
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 769px) and (m
